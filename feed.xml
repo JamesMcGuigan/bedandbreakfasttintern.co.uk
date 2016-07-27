@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:4A2E1836-9676-468C-B2DD-B40033F50DC1</id>
+ <title>Page list Atom feed</title>
+ <updated>2010-08-09T17:16:51+01:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:4A9175F7-B4FB-4960-847A-04543B201A64</id>
+  <title>Location</title>
+  <title xmlns="urn:iweb:">Location</title>
+  <in-navbar xmlns="urn:iweb:">4A9175F7-B4FB-4960-847A-04543B201A64</in-navbar>
+  <link rel="alternate" href="Location.html"/>
+  <updated>2010-08-09T17:16:51.001+01:00</updated>
+  <content>Location</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:CDF61D76-896E-4448-95D4-BA23F78CBE66</id>
+  <title>Contact</title>
+  <title xmlns="urn:iweb:">Contact</title>
+  <in-navbar xmlns="urn:iweb:">CDF61D76-896E-4448-95D4-BA23F78CBE66</in-navbar>
+  <link rel="alternate" href="Contact.html"/>
+  <updated>2010-08-09T17:16:51.002+01:00</updated>
+  <content>Contact</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:3EEE9256-9822-492C-8EEE-8EF8B2F6E7FE</id>
+  <title>Food</title>
+  <title xmlns="urn:iweb:">Food</title>
+  <in-navbar xmlns="urn:iweb:">3EEE9256-9822-492C-8EEE-8EF8B2F6E7FE</in-navbar>
+  <link rel="alternate" href="Food.html"/>
+  <updated>2010-08-09T17:16:51.003+01:00</updated>
+  <content>Food</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:C470B519-A4A9-441A-96D8-E5481257FED2</id>
+  <title>Mulberry</title>
+  <title xmlns="urn:iweb:">Mulberry</title>
+  <in-navbar xmlns="urn:iweb:">C470B519-A4A9-441A-96D8-E5481257FED2</in-navbar>
+  <link rel="alternate" href="Mulberry.html"/>
+  <updated>2010-08-09T17:16:51.004+01:00</updated>
+  <content>Mulberry</content>
+ </entry>
+</feed>

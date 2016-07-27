@@ -1,0 +1,2 @@
+DirectoryIndex Front.html
+ErrorDocument 404 /Front.html

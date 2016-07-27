@@ -1,0 +1,28 @@
+body,table,tbody,tr,td,img { padding:0; margin:0; }
+a, a:visited   { font-weight:bold; color:#154c00; }
+
+
+img        { border:none; }
+body       { background:#d5e9aa; }
+#banner    { background:url(../images/banner-1024.jpg); height:160px; width:100%; }
+h2.title   { color:white; text-align:center; color:#314702; }
+.content   { color:#182301; }
+.content p { padding-left:20%; padding-right:20%; }
+
+table.images    { margin:auto; padding-top:1em; padding-bottom:1em;  }
+table.images td { padding-left:10px; padding-right:10px; }
+table.images .comment { text-align:center; font-style:italic; }
+
+div.menu      { width:23em; margin-left:auto; margin-right:auto; padding:0 1em 0.5em 1em;  }
+div.menu      { border:thin solid #314702; text-align:center; }
+.menu li      { padding:0.25em; text-align:left; }
+.menu span    { display:block; padding-right:3em; font-style:italic; }
+.menu p       { padding-left:0; padding-right:0; }
+
+.contact      { font-weight:bold; text-align:center; padding:1em; }
+
+.bigphoto img  { display:block; margin:auto; padding:1em; }
+.bigphoto-desc { text-align:center; font-weight:bold; padding:0.5em; margin:auto; display:block; font-size:120%;  }
+.back          { text-align:center; font-weight:bold; }
+
+.map-comment   { text-align:center; font-weight:bold; }

@@ -1,0 +1,38 @@
+<?php
+// Note: Map page is currently broken - workaround is a direct link to maps.google.co.uk
+// http://maps.google.co.uk/maps?q=NP166SN+(Forest+Cottage,+Trelleck+Road,+Tintern,+Chepstow,+Monmouthshire,+)&spn=0.282538,0.643833&hl=en
+
+switch('http://'.$_SERVER['SERVER_NAME'].dirname($_SERVER['PHP_SELF'])) {
+  case 'http://www/bedandbreakfasttintern.co.uk':
+    $key = 'ABQIAAAAB6CDswYi6Q3ne6FCCb3s2hSC7SDQYJW85CqOPReoG0XxOeEIBhSxV4MPNNnluoy_bj-JOj8wBwF-HA';
+    break;
+  case 'http://earthemergency.org/bedandbreakfasttintern.co.uk':
+    $key = 'ABQIAAAAB6CDswYi6Q3ne6FCCb3s2hSBg0oBLuGQvBIDls9ZKWtDm-kf5xSnfe8WHa4frkfC96wewEIOWnpmdg';
+    break;
+  case 'http://bedandbreakfasttintern.co.uk':
+  default:
+    $key = 'ABQIAAAAB6CDswYi6Q3ne6FCCb3s2hQDextHSyux4RHxzma7L8lUeOFRFRQ7nd5vLRqlvxnTWc4YmnDw35nH7A';
+    break;
+}
+
+$javascript_html = "<script src='http://maps.google.co.uk/maps?file=api&v=1&key=$key' type='text/javascript'></script>";
+
+$key = $keys[$_SERVER['SERVER_NAME'].dirname($_SERVER['PHP_SELF'])];
+
+$content = <<<HTML
+
+<p class='map-comment'>Directions to our Cottage</p>
+
+<div id="map" style="width:90%; height:500px; margin:auto;"></div>
+    <script type="text/javascript">
+    //<![CDATA[
+
+    var map = new GMap(document.getElementById("map"));
+    map.addControl(new GSmallMapControl());
+    map.centerAndZoom(new GPoint(0,0), 4);
+
+    //]]>
+    </script>
+HTML;
+include_once('templates/bedandbreakfasttintern.php');
+?>

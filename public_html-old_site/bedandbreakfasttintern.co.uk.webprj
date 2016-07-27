@@ -1,0 +1,93 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project usePreviewPrefix="1" previewPrefix="http://www/bedandbreakfasttintern.co.uk" type="Local" name="bedandbreakfasttintern.co.uk" encoding="utf8" >
+    <upload/>
+    <defaultDTD>-//w3c//dtd xhtml 1.0 strict//en</defaultDTD>
+    <debuggers>
+      <Gubed/>
+    </debuggers>
+    <item url="" uploadstatus="1" />
+    <templates>templates/</templates>
+    <toolbars>templates/</toolbars>
+    <item url="templates/" uploadstatus="1" />
+    <item url="templates/menu.php" uploadstatus="1" />
+    <item modified_time="1122644397" url="templates/template-processing.php" uploadstatus="1" />
+    <item url="working/" uploadstatus="1" />
+    <item url="working/herbies-photos/" uploadstatus="1" />
+    <item url="working/banner-1024.jpg" uploadstatus="1" />
+    <item url="working/banner-1280.jpg" uploadstatus="1" />
+    <item url="working/banner.xcf" uploadstatus="1" />
+    <item url="images/" uploadstatus="1" />
+    <item url="images/banner-1024.jpg" uploadstatus="1" />
+    <item url="images/banner-1280.jpg" uploadstatus="1" />
+    <item modified_time="1122910667" url="templates/bedandbreakfasttintern.css" uploadstatus="1" />
+    <item modified_time="1122685191" url="templates/bedandbreakfasttintern-ie-only.css" uploadstatus="1" />
+    <item modified_time="1122685302" url="templates/bedandbreakfasttintern.php" uploadstatus="1" />
+    <item url="templates/bedandbreakfasttintern-switcher.php" uploadstatus="1" />
+    <item url="toolbars/" uploadstatus="1" />
+    <item modified_time="1122914230" url="index.htm" uploadstatus="1" />
+    <item url="images/photos/" uploadstatus="1" />
+    <item url="images/photos/forest-cottage-b+b-breakfast-room.jpg" uploadstatus="1" />
+    <item url="images/photos/forest-cottage-b+b-exterior-1.jpg" uploadstatus="1" />
+    <item url="images/photos/forest-cottage-b+b-exterior-2.jpg" uploadstatus="1" />
+    <item url="images/photos/forest-cottage-b+b-interior-1.jpg" uploadstatus="1" />
+    <item url="images/photos/forest-cottage-b+b-interior-2.jpg" uploadstatus="1" />
+    <item url="images/photos/forest-cottage-b+b-interior-3.jpg" uploadstatus="1" />
+    <item url="images/photos/images.html" uploadstatus="1" />
+    <item url="images/photos/tintern-abbey.jpg" uploadstatus="1" />
+    <item url="images/photos/tintern-fields.jpg" uploadstatus="1" />
+    <item url="images/photos/tintern-garden.jpg" uploadstatus="1" />
+    <item url="working/backgrounds/" uploadstatus="1" />
+    <item url="working/backgrounds/all-good-people.jpg" uploadstatus="1" />
+    <item url="working/backgrounds/all-good-people-light.jpg" uploadstatus="1" />
+    <item url="working/backgrounds/grass.jpg" uploadstatus="1" />
+    <item url="working/backgrounds/nepal-field.jpg" uploadstatus="1" />
+    <item url="working/bed-and-breakfast-at-forest-cottage.doc" uploadstatus="1" />
+    <item url="working/forest-cottage-b+b-breakfast-room.jpg" uploadstatus="1" />
+    <item url="working/forest-cottage-b+b-exterior-1.jpg" uploadstatus="1" />
+    <item url="working/forest-cottage-b+b-exterior-2.jpg" uploadstatus="1" />
+    <item url="working/forest-cottage-b+b-interior-1.jpg" uploadstatus="1" />
+    <item url="working/forest-cottage-b+b-interior-2.jpg" uploadstatus="1" />
+    <item url="working/forest-cottage-b+b-interior-3.jpg" uploadstatus="1" />
+    <item url="working/images.html" uploadstatus="1" />
+    <item url="working/tintern-abbey.jpg" uploadstatus="1" />
+    <item url="working/tintern-fields.jpg" uploadstatus="1" />
+    <item url="working/tintern-garden.jpg" uploadstatus="1" />
+    <item url="working-copy/" uploadstatus="1" />
+    <item url="working-copy/backgrounds/" uploadstatus="1" />
+    <item url="working-copy/backgrounds/grass.jpg" uploadstatus="1" />
+    <item url="working-copy/backgrounds/nepal-field.jpg" uploadstatus="1" />
+    <item url="working-copy/herbies-photos/" uploadstatus="1" />
+    <item url="working-copy/banner-1024.jpg" uploadstatus="1" />
+    <item url="working-copy/banner-1280.jpg" uploadstatus="1" />
+    <item url="working-copy/banner.xcf" uploadstatus="1" />
+    <item url="working-copy/Bed and Breakfast at Forest Cottage.doc" uploadstatus="1" />
+    <item url="working-copy/Forest Cottage B&amp;B breakfast room.JPG" uploadstatus="1" />
+    <item url="working-copy/Forest Cottage B&amp;B, exterior 1.jpg" uploadstatus="1" />
+    <item url="working-copy/Forest Cottage B&amp;B exterior 2.jpg" uploadstatus="1" />
+    <item url="working-copy/Forest Cottage B&amp;B interior 1.jpg" uploadstatus="1" />
+    <item url="working-copy/Forest Cottage B&amp;B interior 3.jpg" uploadstatus="1" />
+    <item url="working-copy/Forst Cottage B&amp;B interior 2.jpg" uploadstatus="1" />
+    <item url="working-copy/Tintern Abbey.jpg" uploadstatus="1" />
+    <item url="working-copy/Tintern fields.jpg" uploadstatus="1" />
+    <item url="working-copy/Tintern garden.jpg" uploadstatus="1" />
+    <item modified_time="1122908606" url="photo.php" uploadstatus="1" />
+    <item modified_time="1122908883" url="data.php" uploadstatus="1" />
+    <author>James McGuigan</author>
+    <email>james@worldfuturecouncil.org</email>
+    <debuggerclient>No debugger</debuggerclient>
+    <exclude cvsignore="true" >*~;*.webprj;</exclude>
+    <teamdata>
+      <taskleaders/>
+      <subprojectleaders/>
+      <mailinglist address="" />
+    </teamdata>
+    <events/>
+    <item modified_time="1122919843" url="map.htm" />
+    <treestatus>
+      <openfolder url="images" />
+      <openfolder url="templates" />
+      <openfolder url="working" />
+    </treestatus>
+  </project>
+</webproject>
