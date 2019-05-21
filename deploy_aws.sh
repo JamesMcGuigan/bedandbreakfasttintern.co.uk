@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set +x
 
 # Public URL:          http://bedandbreakfasttintern.co.uk
 #
@@ -12,4 +13,4 @@
 #     bedandbreakfasttintern.co.uk: A ALIAS s3-website.eu-west-2.amazonaws.com. (z3gkzc51zf0db4)
 # www.bedandbreakfasttintern.co.uk: A ALIAS bedandbreakfasttintern.co.uk. (zkoijilx05znw)
 
-aws s3 sync ./ s3://bedandbreakfasttintern.co.uk --acl public-read --exclude '*.zip' --exclude '.idea' --exclude '.git'
+aws s3 sync ./ s3://bedandbreakfasttintern.co.uk --acl public-read --exclude '*.zip' --exclude '.idea/*' --exclude '.git/*'
